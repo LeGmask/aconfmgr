@@ -9,3 +9,4 @@ AddPackage vlc # Free and open source cross-platform multimedia player and frame
 AddPackage wget # Network utility to retrieve files from the web
 AddPackage tmux # Terminal multiplexer
 AddPackage bolt # Thunderbolt 3 device manager
+AddPackage htop # Interactive process viewer
