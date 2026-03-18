@@ -6,6 +6,7 @@ AddPackage linux-firmware # Firmware files for Linux
 AddPackage linux-headers # Headers and scripts for building modules for the Linux kernel
 
 # # Base system config
+CopyFile /etc/environment
 CopyFile /etc/fstab
 CopyFile /etc/hostname
 CopyFile /etc/hosts
@@ -60,4 +61,5 @@ AddPackage --foreign needrestart # Restart daemons after library updates.
 
 # Security
 AddPackage sudo # Give certain users the ability to run some commands as root
+AddPackage sbctl # Secure Boot key manager
 CopyFile /etc/sudoers

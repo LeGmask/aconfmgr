@@ -70,6 +70,7 @@ IgnorePath /var/lib/libuuid
 IgnorePath /var/lib/machines
 IgnorePath /var/lib/NetworkManager/\*
 IgnorePath /var/lib/pacman/\*
+IgnorePath /var/lib/sbctl/\*
 IgnorePath /var/lib/systemd/\*
 IgnorePath /var/lib/plocate/plocate.db
 IgnorePath /var/lib/portables
