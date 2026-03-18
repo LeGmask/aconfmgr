@@ -37,3 +37,8 @@ AddPackage nautilus # Default file manager for GNOME
 
 # Theme
 AddPackage papirus-icon-theme # Papirus icon theme
+
+# networks management
+AddPackage network-manager-applet # Applet for managing network connections
+AddPackage nm-connection-editor # NetworkManager GUI connection editor and widgets
+
