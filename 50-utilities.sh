@@ -1,4 +1,9 @@
+# mail
+AddPackage mutt # Small but very powerful text-based mail client
+AddPackage lynx # A text browser for the World Wide Web
+
 # random
+AddPackage tldr # Command line client for tldr, a collection of simplified man pages.
 AddPackage fastfetch # A feature-rich and performance oriented neofetch like system information tool
 AddPackage gnome-font-viewer # A font viewer utility for GNOME
 AddPackage libqalculate # Multi-purpose desktop calculator
