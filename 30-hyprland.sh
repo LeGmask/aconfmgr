@@ -13,6 +13,7 @@ AddPackage hyprpicker # A wlroots-compatible Wayland color picker that does not 
 
 # Screenshots
 AddPackage --foreign grimblast-git # A helper for screenshots within Hyprland.
+AddPackage wl-clipboard # Command-line copy/paste utilities for Wayland
 
 # Notifications
 AddPackage dunst # Customizable and lightweight notification-daemon
