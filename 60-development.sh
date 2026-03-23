@@ -8,3 +8,5 @@ AddPackage yq # Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML
 # Versionning
 AddPackage lazygit # Simple terminal UI for git commands
 
+# lxc
+AddPackage lxc # Linux Containers
