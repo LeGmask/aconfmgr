@@ -1,5 +1,6 @@
 # Hyprland
 AddPackage hyprland # a highly customizable dynamic tiling Wayland compositor
+AddPackage xdg-desktop-portal-hyprland # xdg-desktop-portal backend for hyprland
 
 # Default directories
 xdg-user-dirs-update
