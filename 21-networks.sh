@@ -10,5 +10,6 @@ AddPackage whois # Intelligent WHOIS client
 AddPackage wireguard-tools # next generation secure network tunnel - tools for configuration
 
 # Bluetooth
+AddPackage bluez # Daemons for the bluetooth protocol stack
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 SystemdEnable bluez /usr/lib/systemd/system/bluetooth.service
