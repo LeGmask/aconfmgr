@@ -15,3 +15,4 @@ AddPackage wget # Network utility to retrieve files from the web
 AddPackage tmux # Terminal multiplexer
 AddPackage bolt # Thunderbolt 3 device manager
 AddPackage htop # Interactive process viewer
+AddPackage bind # A complete, highly portable implementation of the DNS protocols
