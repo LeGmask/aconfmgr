@@ -16,6 +16,8 @@ AddPackage noto-fonts-emoji # Google Noto Color Emoji font
 AddPackage ttf-firacode-nerd # Patched font Fira (Fura) Code from nerd fonts library
 AddPackage ttf-jetbrains-mono-nerd # Patched font JetBrains Mono from nerd fonts library
 AddPackage ttf-mononoki-nerd # Patched font Mononoki from nerd fonts library
+AddPackage ttf-dejavu # Font family based on the Bitstream Vera Fonts with a wider range of characters
+AddPackage ttf-liberation # Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
 
 # Terminal emulator
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
