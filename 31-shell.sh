@@ -3,7 +3,6 @@ AddPackage bash-completion # Programmable completion for the bash shell
 
 # zsh
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
-AddPackage zsh-completions # Additional completion definitions for Zsh
 AddPackage --foreign zsh-antidote # the cure to slow zsh plugin management
 
 # qol
