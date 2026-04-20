@@ -58,8 +58,12 @@ AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
 SystemdEnable pacman-contrib /usr/lib/systemd/system/paccache.timer
 AddPackage --foreign downgrade # Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 AddPackage --foreign needrestart # Restart daemons after library updates.
+AddPackage --foreign pacdiff-pacman-hook-git # Pacman hook to review .pacnew files automatically
 
 # Security
 AddPackage sudo # Give certain users the ability to run some commands as root
 AddPackage sbctl # Secure Boot key manager
 CopyFile /etc/sudoers
+
+# firmware updates
+AddPackage fwupd # Simple daemon to allow session software to update firmware
