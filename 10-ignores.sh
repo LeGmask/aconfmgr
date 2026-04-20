@@ -2,9 +2,11 @@
 IgnorePath /boot/\*
 
 # /etc
+IgnorePath /etc/.pwd.lock
+IgnorePath /etc/.updated
 IgnorePath /etc/adjtime
-IgnorePath /etc/audit/\*
 IgnorePath /etc/audisp
+IgnorePath /etc/audit/\*
 IgnorePath /etc/ca-certificates/\*
 IgnorePath /etc/fonts/conf.d/\*
 IgnorePath /etc/group
@@ -31,19 +33,18 @@ IgnorePath /etc/subgid
 IgnorePath /etc/subgid-
 IgnorePath /etc/subuid
 IgnorePath /etc/subuid-
+IgnorePath /etc/texmf/\*
 IgnorePath /etc/userdb
 IgnorePath /etc/xml/catalog
-IgnorePath /etc/.updated
-IgnorePath /etc/.pwd.lock
 
 # /usr
 IgnorePath /usr/bin/groupmems
 IgnorePath /usr/lib/\*
-IgnorePath /usr/lib32/gconv/\*
 IgnorePath /usr/lib/locale/locale-archive
 IgnorePath /usr/lib/modules/\*
 IgnorePath /usr/lib/systemd/\*
 IgnorePath /usr/lib/udev/hwdb.bin
+IgnorePath /usr/lib32/gconv/\*
 IgnorePath /usr/share/applications/mimeinfo.cache
 IgnorePath /usr/share/glib-2.0/\*
 IgnorePath /usr/share/icons/\*/\*.cache
@@ -54,13 +55,16 @@ IgnorePath /usr/share/texmf/ls-R/\*
 IgnorePath /usr/share/vim/vimfiles/doc/tags
 
 # /var
+IgnorePath /var/.updated
 IgnorePath /var/db/\*
 IgnorePath /var/lib/archbuild/\*
 IgnorePath /var/lib/bluetooth/\*
 IgnorePath /var/lib/boltd/\*
 IgnorePath /var/lib/btrfs/\*
 IgnorePath /var/lib/chrony\*
+IgnorePath /var/lib/cni/\*
 IgnorePath /var/lib/colord/\*
+IgnorePath /var/lib/containers/\*
 IgnorePath /var/lib/dbus/machine-id /etc/machine-id
 IgnorePath /var/lib/dkms/\*
 IgnorePath /var/lib/flatpak/\*
@@ -70,14 +74,16 @@ IgnorePath /var/lib/libuuid
 IgnorePath /var/lib/machines
 IgnorePath /var/lib/NetworkManager/\*
 IgnorePath /var/lib/pacman/\*
-IgnorePath /var/lib/sbctl/\*
-IgnorePath /var/lib/systemd/\*
+IgnorePath /var/lib/passim/\*
 IgnorePath /var/lib/plocate/plocate.db
 IgnorePath /var/lib/portables
 IgnorePath /var/lib/private
+IgnorePath /var/lib/rpm/\*
+IgnorePath /var/lib/sbctl/\*
+IgnorePath /var/lib/systemd/\*
+IgnorePath /var/lib/texmf/\*
 IgnorePath /var/lib/tlp/rfkill_saved
 IgnorePath /var/lib/tpm2-tss
 IgnorePath /var/lib/upower/\*
 IgnorePath /var/log/\*
 IgnorePath /var/tmp/\*
-IgnorePath /var/.updated
