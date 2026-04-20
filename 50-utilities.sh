@@ -16,3 +16,13 @@ AddPackage tmux # Terminal multiplexer
 AddPackage bolt # Thunderbolt 3 device manager
 AddPackage htop # Interactive process viewer
 AddPackage bind # A complete, highly portable implementation of the DNS protocols
+AddPackage wireshark-qt # Network traffic and protocol analyzer/sniffer - Qt GUI
+AddPackage btop # A monitor of system resources, bpytop ported to C++
+AddPackage gnome-disk-utility # Disk Management Utility for GNOME
+AddPackage inetutils # A collection of common network programs
+AddPackage meld # Compare files, directories and working copies
+AddPackage sshuttle # Transparent proxy server that forwards all TCP packets over ssh
+AddPackage yazi # Blazing fast terminal file manager written in Rust, based on async I/O
+AddPackage unzip # For extracting and viewing files in .zip archives
+
+AddPackage --foreign netcalc # IP network calculator - Simplified clone of sipcalc with ipcalc looks
