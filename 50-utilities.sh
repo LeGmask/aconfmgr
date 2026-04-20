@@ -25,4 +25,3 @@ AddPackage sshuttle # Transparent proxy server that forwards all TCP packets ove
 AddPackage yazi # Blazing fast terminal file manager written in Rust, based on async I/O
 AddPackage unzip # For extracting and viewing files in .zip archives
 
-AddPackage --foreign netcalc # IP network calculator - Simplified clone of sipcalc with ipcalc looks
