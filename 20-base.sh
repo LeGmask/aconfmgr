@@ -6,15 +6,15 @@ AddPackage linux-firmware # Firmware files for Linux
 AddPackage linux-headers # Headers and scripts for building modules for the Linux kernel
 
 # # Base system config
+CopyProfileFile /etc/fstab
 CopyFile /etc/environment
-CopyFile /etc/fstab
-CopyFile /etc/hostname
-CopyFile /etc/hosts
+CopyProfileFile /etc/hostname
+CopyProfileFile /etc/hosts
 CopyFile /etc/locale.conf
 CreateLink /etc/localtime /usr/share/zoneinfo/Europe/Paris
-CopyFile /etc/cmdline.d/root.conf
+CopyProfileFile /etc/cmdline.d/root.conf
 CopyFile /etc/vconsole.conf
-CopyFile /etc/makepkg.conf
+CopyProfileFile /etc/makepkg.conf
 
 # System manual
 AddPackage man-db # A utility for reading man pages
