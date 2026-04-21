@@ -1,3 +1,1 @@
-sudo usermod -aG wheel evann
-sudo usermod -aG input evann
-sudo usermod -aG uinput evann
+sudo usermod -aG wheel $USER
