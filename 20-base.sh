@@ -5,7 +5,7 @@ AddPackage linux # The Linux kernel and modules
 AddPackage linux-firmware # Firmware files for Linux
 AddPackage linux-headers # Headers and scripts for building modules for the Linux kernel
 
-# # Base system config
+# Base system config
 CopyProfileFile /etc/fstab
 CopyFile /etc/environment
 CopyProfileFile /etc/hostname
