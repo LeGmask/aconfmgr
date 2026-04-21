@@ -1,14 +1,17 @@
 # Display manager
 AddPackage ly # TUI display manager
-CreateLink /usr/lib/systemd/system/autovt@tty2.service /usr/lib/systemd/system/ly@.service
+CreateLink /etc/systemd/system/autovt@tty2.service /usr/lib/systemd/system/ly@.service
+systemd_files+=("system/autovt@tty2.service")
 cat > "$(CreateFile /etc/systemd/system/getty@tty1.service.d/noclear.conf)" <<EOF
 [Service]
 TTYVTDisallocate=no
 EOF
+systemd_files+=("system/getty@tty1.service.d/noclear.conf")
 cat > "$(CreateFile /etc/systemd/system/getty@tty1.service.d/chvt.conf)" <<EOF
 [Service]
 ExecStartPost=/usr/bin/chvt 2
 EOF
+systemd_files+=("system/getty@tty1.service.d/chvt.conf")
 
 # Sound
 AddPackage pipewire-alsa # Low-latency audio/video router and processor - ALSA configuration
