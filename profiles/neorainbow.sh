@@ -1,7 +1,13 @@
-ModuleLoad desktop hyprland
+ModuleLoad networks     networkmanager bluetooth utils
+ModuleLoad desktop      dotfiles hyprland
+ModuleLoad apps         entertainment keyboard mail tools
+ModuleLoad shell        bash zsh qol utils
+ModuleLoad laptop       power
 
-ModuleLoad development \
-    ruby puppet \
-    python
+ModuleLoad work
 
-ModuleLoad containers open
+ModuleLoad development  ruby puppet python
+ModuleLoad containers   open
+
+# Custom requirements
+AddPackage bolt # Thunderbolt 3 device manager
