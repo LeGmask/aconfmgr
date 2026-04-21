@@ -36,6 +36,7 @@ AddPackage firefox-developer-edition # Fast, Private & Safe Web Browser (Develop
 
 # file manager
 AddPackage nautilus # Default file manager for GNOME
+AddPackage unzip # For extracting and viewing files in .zip archives
 
 # Theme
 AddPackage papirus-icon-theme # Papirus icon theme
