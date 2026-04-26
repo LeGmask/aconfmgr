@@ -59,6 +59,7 @@ SystemdEnable pacman-contrib /usr/lib/systemd/system/paccache.timer
 AddPackage --foreign downgrade # Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 AddPackage --foreign needrestart # Restart daemons after library updates.
 AddPackage --foreign pacdiff-pacman-hook-git # Pacman hook to review .pacnew files automatically
+CopyFile /etc/pacman.conf
 CopyFile /etc/paru.conf
 
 # Security
