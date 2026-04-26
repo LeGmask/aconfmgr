@@ -1,5 +1,5 @@
 ModuleLoad networks     networkmanager bluetooth utils
-ModuleLoad desktop      dotfiles hyprland niri
+ModuleLoad desktop      dotfiles niri
 ModuleLoad apps         entertainment keyboard mail tools
 ModuleLoad shell        bash zsh qol utils
 ModuleLoad laptop       power
