@@ -39,6 +39,9 @@ AddPackage duperemove # Btrfs extent deduplication utility
 CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/mkinitcpio.d/linux.preset
 
+# systemd-boot
+AddPackage --foreign systemd-boot-pacman-hook # Pacman hook to upgrade systemd-boot after systemd upgrade.
+
 # NTP
 AddPackage chrony # Lightweight NTP client and server
 SystemdEnable chrony /usr/lib/systemd/system/chronyd.service
