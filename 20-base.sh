@@ -49,7 +49,7 @@ AddPackage rsync # A fast and versatile file copying tool for remote and local f
 AddPackage git # the fast distributed version control system
 AddPackage vim # Vi Improved, a highly configurable, improved version of the vi text editor
 
-# Archlinux managing
+# Archlinux pkg mgmt
 AddPackage arch-signoff # Sign off Arch Linux testing packages
 AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
@@ -68,3 +68,4 @@ CopyFile /etc/sudoers
 
 # firmware updates
 AddPackage fwupd # Simple daemon to allow session software to update firmware
+CopyFile /etc/fwupd/fwupd.conf
