@@ -22,7 +22,7 @@ AddPackage batsignal # A lightweight battery monitor daemon
 
 # OSD
 AddPackage swayosd # A GTK based on screen display for keyboard shortcuts like caps-lock and volume
-# SystemdEnable swayosd /usr/lib/systemd/system/swayosd-libinput-backend.service
+SystemdEnable swayosd /usr/lib/systemd/system/swayosd-libinput-backend.service
 
 # Bar
 AddPackage waybar # Highly customizable Wayland bar for Sway and Wlroots based compositors
