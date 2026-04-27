@@ -5,5 +5,6 @@ ModuleLoad shell        bash zsh qol utils
 ModuleLoad laptop       power
 
 ModuleLoad development
+ModuleLoad containers   lxc
 
 SystemdEnable openssh /usr/lib/systemd/system/sshd.service
