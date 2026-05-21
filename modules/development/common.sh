@@ -8,3 +8,4 @@ AddPackage yq # Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML
 # Versionning
 AddPackage git-crypt # Transparent file encryption in Git
 AddPackage lazygit # Simple terminal UI for git commands
+AddPackage tig # Text-mode interface for Git.
