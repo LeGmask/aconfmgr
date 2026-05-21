@@ -11,3 +11,6 @@ ModuleLoad containers   open
 
 # Custom requirements
 AddPackage bolt # Thunderbolt 3 device manager
+
+# Custom files
+CopyProfileFile /etc/pacman.conf
