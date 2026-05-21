@@ -1,3 +1,4 @@
 AddPackage bluez # Daemons for the bluetooth protocol stack
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
+AddPackage blueman # GTK+ Bluetooth Manager
 SystemdEnable bluez /usr/lib/systemd/system/bluetooth.service
