@@ -17,3 +17,4 @@ cat > "$(CreateFile /etc/lxc/lxc-usernet)" <<EOF
 $(id -un) veth lxcbr0 10
 EOF
 
+IgnorePath /var/lib/misc/dnsmasq.\*.leases
