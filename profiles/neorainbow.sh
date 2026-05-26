@@ -4,7 +4,7 @@ ModuleLoad apps         entertainment keyboard mail tools games
 ModuleLoad shell        bash zsh qol utils
 ModuleLoad laptop       power
 
-ModuleLoad work
+ModuleLoad work         ulhpc
 
 ModuleLoad development  ruby puppet python go shell
 ModuleLoad containers   open
