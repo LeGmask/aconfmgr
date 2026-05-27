@@ -17,7 +17,7 @@ command -v xdg-user-dirs-update >/dev/null 2>&1 && xdg-user-dirs-update
 command -v xdg-user-dirs-gtk-update >/dev/null 2>&1 && xdg-user-dirs-gtk-update
 
 # Notifications
-AddPackage dunst # Customizable and lightweight notification-daemon
+AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage batsignal # A lightweight battery monitor daemon
 
 # OSD
