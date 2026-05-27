@@ -38,3 +38,6 @@ AddPackage --foreign bibata-cursor-theme-bin # Material Based Cursor Theme
 
 # Clipboard
 AddPackage wl-clipboard # Command-line copy/paste utilities for Wayland
+
+# dark-mode and light-mode transitions
+AddPackage darkman # Framework for dark-mode and light-mode transitions on Linux desktop
