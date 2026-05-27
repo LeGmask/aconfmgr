@@ -7,7 +7,7 @@ AddPackage --foreign niri-autoselect-portal-git # Always auto select the niri dy
 # Ecosystem
 AddPackage swayidle # Idle management daemon for Wayland
 AddPackage hyprlock # hyprland’s GPU-accelerated screen locking utility
-AddPackage hyprpaper # a blazing fast wayland wallpaper utility with IPC controls
+AddPackage awww # An Answer to your Wayland Wallpaper Woes
 
 # Xwayland
 AddPackage xwayland-satellite # Xwayland outside your Wayland
