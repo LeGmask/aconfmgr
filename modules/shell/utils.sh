@@ -8,3 +8,4 @@ AddPackage tmux # Terminal multiplexer
 AddPackage wget # Network utility to retrieve files from the web
 AddPackage yazi # Blazing fast terminal file manager written in Rust, based on async I/O
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
+AddPackage iotop # View I/O usage of processes
