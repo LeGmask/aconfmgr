@@ -34,7 +34,7 @@ AddPackage --foreign vicinae-bin # Raycast like FOSS app on finux
 AddPackage kanshi # Dynamic output configuration for Wayland WMs
 
 # Cursor theme
-AddPackage --foreign bibata-cursor-theme-bin # Material Based Cursor Theme
+AddPackage --foreign bibata-cursor-theme # Material Based Cursor Theme
 
 # Clipboard
 AddPackage wl-clipboard # Command-line copy/paste utilities for Wayland
