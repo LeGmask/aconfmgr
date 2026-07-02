@@ -10,3 +10,4 @@ AddPackage wireguard-tools # next generation secure network tunnel - tools for c
 
 AddPackage --foreign netcalc # IP network calculator - Simplified clone of sipcalc with ipcalc looks
 AddPackage --foreign openrdap-client # OpenRDAP is an command line RDAP client implementation in Go.
+AddPackage --foreign oui # MAC Address CLI Toolkit
