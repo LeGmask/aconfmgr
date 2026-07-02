@@ -1,3 +1,4 @@
+ModuleLoad linux        zram
 ModuleLoad networks     networkmanager bluetooth utils
 ModuleLoad desktop      dotfiles niri
 ModuleLoad apps         entertainment keyboard mail tools games
