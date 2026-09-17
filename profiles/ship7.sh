@@ -13,3 +13,5 @@ ModuleLoad work         grifon
 SystemdEnable openssh /usr/lib/systemd/system/sshd.service
 
 AddPackage transmission-remote-gtk # GTK remote control for the Transmission BitTorrent client
+AddPackage irssi # Modular text mode IRC client with Perl scripting
+AddPackage mumble # An Open Source, low-latency, high quality voice chat software (client)
