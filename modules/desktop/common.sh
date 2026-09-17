@@ -56,3 +56,6 @@ AddPackage papirus-icon-theme # Papirus icon theme
 AddPackage network-manager-applet # Applet for managing network connections
 AddPackage nm-connection-editor # NetworkManager GUI connection editor and widgets
 
+# Screen recording
+AddPackage slurp # Select a region in a Wayland compositor
+AddPackage wf-recorder # Screen recorder for wlroots-based compositors such as sway
