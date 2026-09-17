@@ -28,7 +28,9 @@ AddPackage swayosd # A GTK based on screen display for keyboard shortcuts like c
 AddPackage waybar # Highly customizable Wayland bar for Sway and Wlroots based compositors
 
 # Launcher
-AddPackage --foreign vicinae-bin # Raycast like FOSS app on finux
+AddPackage --foreign walker # wayland application runner
+AddPackage --foreign elephant # general purpose datasource and executor
+AddPackage --foreign elephant-desktopapplications # desktopapplications provider for elephant
 
 # Dynamic output configuration
 AddPackage kanshi # Dynamic output configuration for Wayland WMs
