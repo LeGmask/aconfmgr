@@ -73,3 +73,7 @@ CopyFile /etc/sudoers
 # firmware updates
 AddPackage fwupd # Simple daemon to allow session software to update firmware
 CopyFile /etc/fwupd/fwupd.conf
+
+# disk utils
+AddPackage smartmontools # Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
+
