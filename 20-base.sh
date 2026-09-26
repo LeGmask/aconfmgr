@@ -36,8 +36,11 @@ AddPackage btrfs-progs # Btrfs filesystem utilities
 AddPackage duperemove # Btrfs extent deduplication utility
 
 # UKI configuration
+AddPackage systemd-ukify # Combine kernel and initrd into a signed Unified Kernel Image
+CopyFile /etc/kernel/uki.conf
 CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/mkinitcpio.d/linux.preset
+CopyFile /etc/mkinitcpio.conf.d/systemd-tpm2-setup.conf
 
 # systemd-boot
 AddPackage --foreign systemd-boot-pacman-hook # Pacman hook to upgrade systemd-boot after systemd upgrade.
