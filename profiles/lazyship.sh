@@ -1,4 +1,4 @@
-ModuleLoad system       zram
+ModuleLoad system       kernel bootloader secure_boot pacman sudo filesystem zram fwupd
 ModuleLoad networks     networkmanager bluetooth utils
 ModuleLoad desktop      dotfiles niri
 ModuleLoad apps         entertainment keyboard mail tools
