@@ -5,7 +5,7 @@ ModuleLoad apps         entertainment keyboard mail tools
 ModuleLoad shell        bash zsh qol utils
 ModuleLoad laptop       power
 
-ModuleLoad development  ruby puppet python
+ModuleLoad development  ruby puppet python qemu
 ModuleLoad containers   lxc docker
 
 ModuleLoad work         grifon
