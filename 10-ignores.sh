@@ -68,6 +68,7 @@ IgnorePath /var/lib/containers/\*
 IgnorePath /var/lib/dbus/machine-id /etc/machine-id
 IgnorePath /var/lib/dkms/\*
 IgnorePath /var/lib/flatpak/\*
+IgnorePath /var/lib/fprint/\*
 IgnorePath /var/lib/fwupd/\*
 IgnorePath /var/lib/lastlog
 IgnorePath /var/lib/libuuid
@@ -85,6 +86,6 @@ IgnorePath /var/lib/texmf/\*
 IgnorePath /var/lib/tlp/rfkill_saved
 IgnorePath /var/lib/tpm2-tss
 IgnorePath /var/lib/upower/\*
-IgnorePath /var/lib/fprint/\*
+IgnorePath /var/lib/vault/\*
 IgnorePath /var/log/\*
 IgnorePath /var/tmp/\*
