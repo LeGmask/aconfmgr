@@ -85,5 +85,6 @@ IgnorePath /var/lib/texmf/\*
 IgnorePath /var/lib/tlp/rfkill_saved
 IgnorePath /var/lib/tpm2-tss
 IgnorePath /var/lib/upower/\*
+IgnorePath /var/lib/fprint/\*
 IgnorePath /var/log/\*
 IgnorePath /var/tmp/\*
