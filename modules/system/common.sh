@@ -4,6 +4,7 @@ AddPackage base-devel # Basic tools to build Arch Linux packages
 # Base system config
 CopyFile /etc/environment
 CopyFile /etc/locale.conf
+CopyFile /etc/vconsole.conf
 CopyProfileFile /etc/hosts
 CopyProfileFile /etc/hostname
 CopyProfileFile /etc/makepkg.conf
