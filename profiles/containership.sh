@@ -5,7 +5,7 @@ ModuleLoad apps         entertainment keyboard mail tools
 ModuleLoad shell        bash zsh qol utils
 
 ModuleLoad development  python k8s
-#ModuleLoad containers   lxc docker
+ModuleLoad containers   open
 
 ModuleLoad work         scw
 
@@ -16,3 +16,5 @@ RemoveFile /etc/systemd/system/multi-user.target.wants/NetworkManager.service
 
 SystemdEnable --name ly@tty7.service ly /usr/lib/systemd/system/ly@.service
 
+AddPackage deja-dup # Easy to use backup tool based on Restic
+AddPackage rclone # rsync for cloud storage
