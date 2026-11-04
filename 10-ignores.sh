@@ -17,6 +17,7 @@ IgnorePath /etc/kernel/pcr\*
 IgnorePath /etc/ld.so.cache
 IgnorePath /etc/ly/save.txt
 IgnorePath /etc/NetworkManager/\*
+IgnorePath /etc/openvpn
 IgnorePath /etc/os-release
 IgnorePath /etc/pacman.d/gnupg/\*
 IgnorePath /etc/pacman.d/mirrorlist\*
@@ -74,6 +75,7 @@ IgnorePath /var/lib/lastlog
 IgnorePath /var/lib/libuuid
 IgnorePath /var/lib/machines
 IgnorePath /var/lib/NetworkManager/\*
+IgnorePath /var/lib/openvpn
 IgnorePath /var/lib/pacman/\*
 IgnorePath /var/lib/passim/\*
 IgnorePath /var/lib/plocate/plocate.db
@@ -86,6 +88,6 @@ IgnorePath /var/lib/texmf/\*
 IgnorePath /var/lib/tlp/rfkill_saved
 IgnorePath /var/lib/tpm2-tss
 IgnorePath /var/lib/upower/\*
-IgnorePath /var/lib/vault/\*
+IgnorePath /var/lib/vault
 IgnorePath /var/log/\*
 IgnorePath /var/tmp/\*
