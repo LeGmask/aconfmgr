@@ -1,6 +1,6 @@
 AddPackage niri # A scrollable-tiling Wayland compositor
 AddPackage xdg-desktop-portal-gnome # Backend implementation for xdg-desktop-portal for the GNOME desktop environment
-AddPackage --foreign oniri # A tool that automatically maximizes the only window of a niri workspace
+AddPackage oniri # A tool that automatically maximizes the only window of a niri workspace
 AddPackage --foreign nirius # Utility commands for the niri compositor
 AddPackage --foreign niri-autoselect-portal-git # Always auto select the niri dynamic cast target without any prompts
 
