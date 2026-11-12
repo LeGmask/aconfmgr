@@ -4,7 +4,7 @@ ModuleLoad desktop      dotfiles niri
 ModuleLoad apps         entertainment keyboard mail tools
 ModuleLoad shell        bash zsh qol utils
 
-ModuleLoad development  python k8s go
+ModuleLoad development  python k8s go rust ebpf
 ModuleLoad containers   open
 
 ModuleLoad work         scw grifon
